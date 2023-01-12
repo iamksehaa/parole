@@ -1,0 +1,77 @@
+#include <iostream>
+using namespace std;
+int main()
+
+ {
+	/*int dog = 30, cat = 12;
+	if (dog > 0 && dog <= 30)
+ {
+		cout << "dogs age is ok" << endl;
+	}
+	else cout << "wrong dogs age" << endl;
+	if (cat > 0 && cat <= 20) { cout << "cats age is ok" << endl; }
+	else cout << "wrong cats age" << endl;
+	cout << "exit";
+
+
+	return 0;*/
+
+
+
+
+	/*int age = 16, augstums = 164;
+	if (age > 6 && age < 20) {
+		cout << "age corect" << endl;
+	}
+	else cout << "age not corect" << endl;
+	if (augstums > 160 && augstums < 180) {
+		cout << "augstums corect" << endl;
+	}
+	else cout << "augstums not corect" << endl;
+	return 0;*/
+	/*string pass2;
+	cout << "enter your pass" << endl;
+	cin >> pass2;
+	string pass = "lol";
+
+	if (pass == pass2) {
+		cout << "you are loged in";
+	}
+	else cout << "incorect pasword";
+
+	return 0;*/
+	/*int age = 12; string p = "0000", p1;
+	cin >> p1;
+	cout << "--------" << endl;
+	if (p == p1) {
+		cout << "all good" << endl << "the age is<<endl";
+	}
+	else cout << "wrong";*/
+	int age = 15;
+
+	string loggy = "kehaa";
+
+	cout << "------------------------" << endl;
+
+	string loggy_put; cout << "Login : ";
+
+	cin >> loggy_put;
+
+	string parole = "kehaa007";
+
+	string parole_put; cout << "Parole : ";
+
+	cin >> parole_put;
+
+	cout << "------------------------" << endl;
+
+	if (parole_put == parole && loggy_put == loggy)
+
+	{
+
+		cout << "ok" << "ok" << endl << age;
+
+	}
+
+	else cout << "jou";
+	}
