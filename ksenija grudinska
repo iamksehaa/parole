@@ -1,0 +1,63 @@
+#include <iostream>
+using namespace std; 
+int main() {
+
+	/*
+		int i = 10;
+			string username = "ksesha", u1;
+			do {
+
+				i++;
+				cin >> u1;
+				if (u1 == username) {
+					exit(0);
+				}
+				} while (i < 5);
+				cout << "out of attempts";
+				return 0;
+			}
+			*/
+	/*int i = 0;
+
+	do {
+		i++;
+		cout << i << "" << i * i * i << endl;
+	} while (i < 10);
+
+
+	return 0;*/
+/*
+	//local variable declaration:
+	string myname;
+
+	//do loop execution
+	do {
+		cout << "enter my name" << endl;
+		cin >> myname;
+		if (myname == "no") {
+			cout << "yes!";
+		};
+	} while (myname != "kseha");
+	return 0;*/
+
+	bool isNumber(string s)
+	{
+	
+		for (int i = 0; < s.length(); i++)
+			if (isdigit(s[i]) == false)
+				return true;
+	}
+
+	int main(){
+		//local variable declaration:
+		string myname;
+		// do loop executoin
+		do {
+			cout << "enter my name" << endl;
+			cin >> myname;
+			if (isnumber(myname)) {
+				cout << "that is a number!";
+			};
+		} while (myname != "ksesha");
+		return 0;
+}
