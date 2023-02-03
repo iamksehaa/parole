@@ -1,0 +1,63 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	/*int i = 0;
+	while (i < 125) {
+		i++;
+		cout << i * 3 << endl;
+	}*/
+	/*int i = 20;
+	while (i > 1) {
+		i--;
+			cout << i * i * i << endl;
+
+	}*/
+	/*int i = 0;
+	while (i < 1000) {
+		i++;
+		cout << "1/" << i << "," << endl;
+	}*/
+	/*printf("\033[32;5m                      *\n \033[m");
+	printf("\033[33;5m                    ***\n \033[m");
+	printf("\033[34;5m                   *****\n \033[m");
+	printf("\033[35;5m                  *******\n \033[m");
+	printf("\033[32;5m                    ***\n \033[m");
+	printf("\033[33;5m                   *****\n \033[m");
+	printf("\033[34;5m                  *******\n \033[m");
+	printf("\033[35;5m                    ***\n \033[m");
+	printf("\033[32;5m                   *****\n \033[m");
+	printf("\033[33;5m                  *******\n \033[m");
+	printf("\033[34;5m                    ***\n \033[m");
+	printf("\033[35;5m                   *****\n \033[m");
+	printf("\033[32;5m                  *******\n \033[m");*/
+	int i = 0;
+	system("color0A");
+	printf("\033[32;5m                      *\n \033[m");
+	printf("\033[33;5m                    ***\n \033[m");
+	printf("\033[34;5m                   *****\n \033[m");
+	printf("\033[35;5m                  *******\n \033[m");
+	printf("\033[32;5m                    ***\n \033[m");
+	printf("\033[33;5m                   *****\n \033[m");
+	printf("\033[34;5m                  *******\n \033[m");
+	printf("\033[35;5m                    ***\n \033[m");
+	printf("\033[32;5m                   *****\n \033[m");
+	printf("\033[33;5m                  *******\n \033[m");
+	printf("\033[34;5m                    ***\n \033[m");
+	printf("\033[35;5m                   *****\n \033[m");
+	printf("\033[32;5m                  *******\n \033[m");
+	while (i != 1)
+	{
+		
+		system("color 18");
+		system("color 27");
+		system("color 36");
+		system("color 45");
+		system("color 54");
+		system("color 63");
+	}
+	
+
+
+	return 0;
+}
